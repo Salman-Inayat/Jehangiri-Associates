@@ -1,0 +1,53 @@
+.about-us-header .after{
+    text-align: center;
+    background-image: url('https://demos.sitepad.com/Real_Estate/sitepad-data/themes/realestate/images/short_banner_bg.jpg');
+    background-color: rgba(34, 34, 34, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.5;
+    height: 20rem;
+}
+
+.about-us-header h3, .breadcrumb{
+    position: absolute;
+    font-size: 38px;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+}
+
+.breadcrumb{
+    top: 75%;
+    font-size: larger;
+}
+
+.KnowAboutUs{
+    padding: 7rem 9rem 5rem;
+    background-color: #efefef80;
+}
+
+.KAUimg{
+    margin: 1rem;
+    object-fit: contain;
+}
+
+.KAUcontent{
+    font-size: 1.3rem;
+}
+
+.Main-heading{
+    font-size: inherit;
+}
+
+.KAUfeature{
+    display: flex;
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 540px) {
+    .about-us-header h3{
+        font-size: 20px;
+    }
+
+}
