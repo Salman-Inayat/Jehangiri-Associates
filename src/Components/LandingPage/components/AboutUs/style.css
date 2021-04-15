@@ -1,0 +1,68 @@
+.about-us{
+    text-align: center;
+    padding: 7.5rem 10rem;
+    padding-top: 5rem;
+}
+
+.welcome-text{
+    font-size: 28px;
+    font-style: Normal !important;
+    font-weight: 700 !important;
+    font-variant: Normal !important;
+    text-decoration-line: None !important;
+    text-decoration-style: Solid !important;
+    line-height: 1.3em !important;
+    text-transform: Capitalize !important;
+    letter-spacing: 0px !important;
+    word-spacing: 0px !important;
+    color:  #1b1e34;
+    margin-bottom: 1.2rem;
+}
+
+.about-us-text{
+    font-size: 18px !important;
+    font-style: Normal !important;
+    font-weight: 500 !important;
+    font-variant: Normal !important;
+    text-decoration-line: None !important;
+    text-decoration-style: Double !important;
+    line-height: 1.5em !important;
+    letter-spacing: 0px !important;
+    word-spacing: 0px !important;
+    color: #3f3f3f;
+    margin-bottom: 1.2rem;
+}
+
+.about-us-button{
+    width: 11rem;
+    height: 3rem;
+    background-color: #8C6BC4;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    /* transform: translateX(-50%);
+    left: 50%; */
+    font-weight: 500;
+    margin-top: 2rem;
+    transition: 0.3s all ease-in;
+}
+
+.about-us-button:hover{
+    background-color: #d09819;
+}
+@media only screen and (max-width: 768px) {
+    .about-us{
+        text-align: center;
+        padding: 1rem !important;
+    }
+    .welcome-text{
+        margin:0;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+}
