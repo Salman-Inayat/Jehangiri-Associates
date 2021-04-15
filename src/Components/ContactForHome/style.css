@@ -1,0 +1,93 @@
+.contact-from-home{
+    background-color: #1b1e34;
+    /* height: 18rem; */
+    /* margin: 3rem; */
+    overflow: hidden;
+}
+
+.contact-text{
+    background-color: #d09819;
+    border-radius: 0 50% 50% 0;
+    margin-right: 2rem;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* box-sizing: border-box; */
+    display: block;
+    /* left: 50%; */
+    /* top: 2%; */
+    transform: translateY(-50%);
+    height: 18rem;
+    /* width: 100%; */
+    /* align-content: flex-start; */
+    position: relative;
+    color: #fff;
+}
+
+.contact-home-box{
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.contact-text>div{
+    font-family: Raleway !important;
+    font-size: 28px !important;
+    font-style: Normal !important;
+    font-weight: 400 !important;
+    font-variant: Normal !important;
+    text-decoration-line: None !important;
+    text-decoration-style: Solid !important;
+    line-height: 1em !important;
+    text-transform: Capitalize !important;
+    letter-spacing: 0px !important;
+    word-spacing: 0px !important;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    display: block;
+}
+
+.contact-text h4{
+    font-family: Raleway !important;
+    font-size: 35px !important;
+    font-style: Normal !important;
+    font-weight: 600 !important;
+    font-variant: Normal !important;
+    text-decoration-line: None !important;
+    text-decoration-style: Solid !important;
+    line-height: 1em !important;
+    text-transform: Capitalize !important;
+    letter-spacing: 0px !important;
+    word-spacing: 0px !important;
+
+    /* position: relative;
+    transform: translateY(50%);
+    text-align: center;
+    display: block; */
+}
+
+.searchInput{
+    background-color: #1b1e34be;
+    border: 1px solid #eee;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    min-height: 40px;
+    padding: 10px 9px 9px 9px;
+    width: 20rem;
+    margin: 1rem;
+}
+
+.CoH-button{
+    left: 35%;
+    margin-bottom: 1.6rem;
+    position: relative;
+    background-color: #1b1e34;
+    transition: 0.8s all ease-in;
+    /* transform: translateX(50%); */
+}
+
+.CoH-button:hover{
+    background-color: #d09819;
+}
