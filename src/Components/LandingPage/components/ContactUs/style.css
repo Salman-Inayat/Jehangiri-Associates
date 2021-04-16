@@ -1,0 +1,79 @@
+.contact-us{
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    overflow: hidden;
+    /* padding-bottom: 2rem; */
+}
+
+.contact-header{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem;
+}
+
+.contact-box{
+    width: 75%;
+    display: inline-block;
+    padding: 3rem;
+    /* margin: 1rem; */
+    align-items: center;
+    background-color: #1b1e34;
+    /* display: inline-block; */
+}
+
+.contact-icon{
+    float: left;
+    position: relative;
+    top: 75%;
+    margin-right: 2rem;
+    /* transform: translateY(50%); */
+    color: #fff;
+}
+
+.contact-details{
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: left;
+    display: inline-block;
+}
+.contact-details h4{
+
+}
+.contact-details a{
+    text-decoration: none;
+    color: #d09819;
+}
+
+.middle{
+    background-color: #262c5c;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-box{
+        /* left: 50%; */
+        width: 100%;
+        /* transform: translateX(-50%); */
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding:0px;
+        float: left;
+    }
+
+    .contact-submit-button{
+        margin-left: 0px;
+        left:13%
+    }
+}
+
