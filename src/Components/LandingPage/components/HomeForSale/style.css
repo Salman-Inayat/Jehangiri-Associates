@@ -1,0 +1,105 @@
+.HomeForSale{
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.HoC-header{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2.5rem;
+    text-align: center;
+}
+
+.HomeCard{
+    max-width: 75%;
+    border: 1px solid #a9a9a9;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.HomeCard img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.HomeCard h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #3f3f3f;
+}
+
+.HomeCard p{
+    font-size: 1rem;
+    color: #a9a9a9;
+}
+
+.HomeCard a{
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 0.8rem 0;
+    background-color: #1b1e34;
+    transition: 0.3s all ease-in;
+}
+
+.HomeCard a:hover{
+    background-color: #d09819;
+}
+.showMore-toggle{
+    border: 1px solid #a9a9a9;
+    display: block;
+    background-color: #1b1e34;
+    width: 250px;
+    font-weight: 500;
+    padding: 0.5rem;
+    margin: 2rem 0;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+.showMore-toggle:hover{
+    background-color: #d09819;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid transparent;
+}
+
+.showMore{
+    border: 1px solid #eee;
+}
+
+.showMoreCard{
+    margin: 2rem 0;
+}
+
+.sale-rent-text{
+    margin-left:20%;
+     font-size:22px;
+     font-weight:400
+}
+
+@media only screen and (max-width: 540px) {
+    .main-rent{
+        font-size: 23px;
+    }
+    .sale-rent-text{
+        font-size: 14px;
+        margin-left: 16%;
+        margin:20px
+    }
+    .button{
+        width: 8rem;
+        height: 2.5rem;
+    }
+}
