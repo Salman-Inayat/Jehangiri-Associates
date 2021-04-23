@@ -1,0 +1,216 @@
+.properties{
+    /* padding: 1rem */
+}
+
+.property-title{
+    font-size: 32px;
+    text-align: center;
+    margin: 2rem;
+    color:white;
+    font-weight: 400;
+}
+
+.property-header .after{
+    text-align: center;
+    background-image: url('https://demos.sitepad.com/Real_Estate/sitepad-data/themes/realestate/images/short_banner_bg.jpg');
+    background-color: rgba(34, 34, 34, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.5;
+    height: 20rem;
+}
+
+.property-header h3, .breadcrumb{
+    position: absolute;
+    font-size: 38px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.breadcrumb{
+    top: 45%;
+    font-size: larger;
+}
+
+.propertyForSale{
+    padding: 3rem;
+    background-color: #020a36;
+}
+
+.property{
+    width: 90%;
+    height: 20rem;
+    position: relative;
+    display: block;
+    margin: 1rem 2rem;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.prop-image{
+    width: 100%;
+    height: inherit;
+    position: relative;
+    display: block;
+}
+
+.prop-image img{
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: inherit;
+    /* justify-content: baseline; */
+}
+
+.prop-image .secondary-image{
+    object-fit: cover;
+    width: inherit;
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    opacity: 0;
+    visibility: hidden;
+    height:inherit;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%,0);
+    -webkit-transition-duration: .7s;
+    -o-transition-duration: .7s;
+    transition-duration: .7s;
+}
+
+.prop-image:hover .secondary-image{
+    visibility: visible;
+    opacity: 1;
+}
+
+.prop-data{
+    transition: 0.3s all;
+    z-index: 15;
+}
+
+.prop-data .props-data-initial{
+    position: absolute;
+    left: 50%;
+    /* top: 50%; */
+    bottom: -3px;
+    width: 100%;
+    color: #1b1e34;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%, 0);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+
+}
+
+.prop-data .props-data-initial a{
+    color: #1b1e34;
+    text-decoration: none;
+    margin-top: 5px
+}
+
+.prop-data .props-data-initial a:hover{
+    color: #d09819;
+}
+
+.prop-data .prop-details{
+    background-color: #1b1e34;
+    color: #d09819;
+    bottom: 0;
+    /* margin: 0; */
+    padding: 2rem;
+    display: block;
+    width: 100%;
+    /* position: absolute */
+}
+/* .property:hover .prop-data{
+    transform: translateY(-75%);
+} */
+
+
+.search-cmp-prop{
+    width: 100%;
+    margin: 0 1.5rem;
+    padding: 1rem;
+    background-color: transparent;
+
+}
+
+.searchInputProp{
+    background-color:transparent;
+    outline: none;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    min-height: 40px;
+    padding: 10px 9px 9px 9px;
+    border-bottom: 1px solid white;
+    width: 75%;
+    margin: 1rem;
+    color:white
+}
+
+.searchInputProp:hover{
+    border-bottom: 1px solid #d09819;
+}
+
+.searchInputProp::placeholder {
+    color: rgb(251, 249, 249);
+    /* text-align: center; */
+    letter-spacing: .4px;
+    /* font-family: 'lato'; */
+    font-weight: 400;
+}
+
+
+
+select:active{
+    background-color: #000268;
+    border-radius: 2px;
+    outline: none;
+    border:none;
+    text-align: center;
+
+}
+
+select{
+    text-align: center;
+}
+
+.searchOption{
+    color:rgb(255, 255, 255);
+    background-color: #000268;
+    border-radius: 5px;
+    text-align: center;
+    font-size: inherit;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .property{
+        width: 84%;
+        height: 14rem;
+    }
+
+    .search-box{
+        margin-left: -45px;
+    }
+}
