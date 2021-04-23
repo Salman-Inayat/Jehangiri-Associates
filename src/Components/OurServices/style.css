@@ -1,0 +1,49 @@
+.Our-Services{
+    background-image: url(https://demos.sitepad.com/Real_Estate/sitepad-data/themes/realestate/images/services_banner_bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem;
+    padding-bottom: 5rem;
+}
+
+.services{
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    
+}
+
+.services-title{
+    color: #d09819;
+    text-shadow: 1px 1px 2px #1b1e34;
+    text-align: center;
+}
+
+.services-title h4{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.services-title p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 1rem;
+}
+
+.service{
+    background-color: #efefef;
+    width: 100%;
+    /* display: inline-block; */
+    padding: 3rem;
+    margin: 1rem;
+    transition: 0.7s all ease-in;
+    margin: 10px;
+}
+
+.service:hover{
+    box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.50);
+}
