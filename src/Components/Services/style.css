@@ -1,0 +1,15 @@
+.gridContainer {
+    padding: "40px"
+}
+
+
+.serviceTitle{
+    margin-top:"40px"
+}
+
+
+.modal-view{
+  width:'50%';
+  top:'50%';
+  left:'50%';
+}
