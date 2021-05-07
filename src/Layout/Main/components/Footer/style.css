@@ -1,0 +1,49 @@
+.footer{
+    background-color: #202125;
+    color: #fff;
+    /* margin-top: 0.5rem; */
+    padding: 2rem;
+    text-align: left;
+}
+
+.footer-content{
+    padding: 1rem;
+}
+
+.footer-content h4{
+    font-size: 1.4rem;
+    color: #d09819;
+}
+
+.footer-content p{
+    font-size: 0.9rem;
+    padding: 0;
+}
+
+.footer-content::before{
+    list-style-type: circle;
+}
+
+.footer-content ul li::before{
+    color: #d09819;
+}
+
+.footer-addr{
+    display: inline-flex;
+}
+
+.company{
+    bottom: 0;
+    position: relative;
+    text-align: center;
+}
+
+p{
+    color:white;
+    margin-left: 0px;
+}
+
+li{
+    list-style: none;
+}
+
