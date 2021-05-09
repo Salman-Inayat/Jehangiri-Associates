@@ -1,0 +1,55 @@
+
+.header{
+    background-color: darkgoldenrod;
+    padding: 2rem;
+    overflow-x: hidden;
+    /* margin: auto; */
+}
+
+.navbar{
+    text-align: left;
+    margin: 0;
+    display: flex;
+    /* float: left; */
+}
+
+.navItem{
+    display: inline-block;
+    text-decoration: none;
+    padding: 3px 10px;
+    margin: 3px;
+    color:white;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    transition: 0.1s all ease-in;
+}
+
+.navItem:hover{
+    color: #d09819;
+    background-color: #e0e0e0;
+    border: 1px solid #d09819;
+    cursor: pointer;
+}
+
+.social-contact{
+    margin: 5px;
+    font-size: 1.5rem;
+    float:right
+}
+
+.menu-icon{
+    /* float: right; */
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    transition: 0.1s all ease-in;
+}
+
+.menu-icon:hover{
+    background-color: #e0e0e0;
+    border: 1px solid #d09819;
+}
